@@ -9,9 +9,9 @@ import '../Constants/Strings/app_strings.dart';
 
 
 class AppRouter {
-  final Box? isar;
+  final Box? box;
 
-  AppRouter({this.isar});
+  AppRouter({this.box});
 
   Route? generateRoute(RouteSettings settings) {
     // final ScreenArguments? arguments = settings.arguments as ScreenArguments;
