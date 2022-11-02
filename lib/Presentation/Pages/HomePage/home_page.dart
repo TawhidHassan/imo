@@ -14,6 +14,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       body: BlocBuilder<UserCubit, UserState>(
         builder: (context, state) {
           return Container();
