@@ -6,7 +6,7 @@ const String SENDER_ID = '';
 
 //base url of api
 //staging
-const BASE_URL = "https://activation-api.field-x.org/api/v1/";
+const BASE_URL = "https://twinimo.herokuapp.com/api/v1/";
 const BASE_URL_IMAGE = "https://staging-fieldx.sgp1.digitaloceanspaces.com/";
 
 

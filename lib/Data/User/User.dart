@@ -8,18 +8,16 @@ class User{
 
   @JsonKey(name: "_id")
   String? id;
-  String? employeeId;
   String? phoneNumber;
   String? name;
-  num? flag;
-  bool? isAssigned;
-  String? email;
+  num? points;
+  bool? online;
   String? role;
   String? image;
 
 
-  User(this.id, this.employeeId, this.phoneNumber, this.name, this.flag,
-      this.isAssigned, this.email, this.role, this.image);
+  User(this.id, this.phoneNumber, this.name, this.points, this.online,
+      this.role, this.image);
 
   factory User.fromJson(Map<String,dynamic>json)=>
       _$UserFromJson(json);

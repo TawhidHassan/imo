@@ -54,8 +54,6 @@ class BackgroundTextfield extends StatelessWidget {
         hintText: hintText,
         hintStyle: TextStyle(color: Colors.black),
 
-        fillColor: bgColor,
-        filled: true,
         contentPadding:
         EdgeInsets.symmetric(vertical: 22.h, horizontal: 12.0),
         border: OutlineInputBorder(
